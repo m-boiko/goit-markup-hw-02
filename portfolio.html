@@ -5,12 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100;400;700;900&display=swap"
+        rel="stylesheet">
     <title>WebStudio</title>
 </head>
 
 <body>
     <header>
-        <a href="./index.html">WebStudio</a>
+        <a class="logo" href="./index.html">WebStudio</a>
         <nav>
             <ul>
                 <li><a href="Студия">Студія</a></li>
@@ -25,21 +30,21 @@
     </header>
 
     <main>
-        <section class="filters">
-            <h2 hidden>Мєню фільтрів</h2> 
-                        <!-- фильтр портфолио (реализован кнопками) -->                        
-          <ul> 
+        <section>
+            <h1>Наші проєкти</h1>
+                                           <!--
+                                            батонам задать -
+                                            цвет фона
+                                            цвет текста
+                                            ховер фокус -->
+          <ul class="filters"> 
             <li><button type="button">Усі</button></li>
             <li><button type="button">Веб-сайтир</button></li>
             <li><button type="button">Додатки</button></li>
             <li><button type="button">Дизайн</button></li>
             <li><button type="button">Маркетинг</button></li>
           </ul>
-        </section>
-        
-        <section class="projects">
-                                     <!-- галерея проэктов -->
-        <h2 hidden>Наші проєкти</h2>
+    
           <ul> 
             <li>
                 <img src="./images/portfolio_images/project_1.jpg" width="322px" alt="Веб-сайт">
