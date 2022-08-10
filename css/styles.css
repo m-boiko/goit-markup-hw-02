@@ -26,12 +26,13 @@ body {
     text-decoration: none;
     }
 
+
+
+
 /* Index html */
 
 
-
-
-/* navigation buttons */
+/* navigation */
 .navigation li {
     list-style-type: none;
 }
@@ -44,11 +45,8 @@ body {
     text-decoration: none;
 }
 
-.navigation .link:focus {
-    color: var(--accent-color);
-}
-
-.navigation .link:hover {
+.navigation .link:focus,
+.navigation .link:hover  {
     color: var(--accent-color);
 }
 
@@ -63,16 +61,15 @@ body {
 }
 
 .odrder-button {
-    background: var(--accent-color) ;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
-.odrder-button span {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     color: var(--primary-white-color);
+    background: var(--accent-color) ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 
@@ -97,7 +94,6 @@ body {
 }
 
 .specifics p {
-    font-weight: 400;
     font-size: 14px;
     line-height: 2;
 }
@@ -124,4 +120,82 @@ body {
 .team p {
     font-size: 16px;
     line-height: 1.2px;
+}
+
+/* footer */
+
+.link-address a {
+    font-style: normal;
+    font-family: 'Roboto' ;
+    font-size: 14px;
+    line-height: 2;
+    color: var(--primary-white-color) ;
+    text-decoration: none;
+    background-color: black ;/*background-color задан временно,
+     чтобы было видно ссылку*/
+   
+}
+.link-address a:hover,
+.link-address a:focus {
+    color: var(--accent-color);
+}
+
+.bottom-contacts a {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 2;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+    background-color: black;/*background-color задан временно,
+    чтобы было видно ссылку*/
+}
+.bottom-contacts a:focus,
+.bottom-contacts a:hover {
+    color: var(--accent-color);
+
+}
+.bottom-contacts li {
+    list-style-type: none;
+
+}
+
+
+/* Portfolio html */
+
+/* filters (buttons) */
+.filters li {
+    list-style: none;
+}
+
+.filters button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.6;
+    text-align: center;
+    color:var(--title-text-color);
+    background: #F5F4FA;
+}
+.filters button:hover,
+.filters button:focus {
+    background-color: var(--accent-color);
+}
+
+
+/* gallery */
+.gallery li {
+    list-style-type: none;
+}
+.gallery h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color:var(--title-text-color);
+}
+.gallery p {
+    font-size: 16px;
+    line-height: 1.9;
+    color:var(--primary-text-color);
 }
