@@ -18,13 +18,36 @@ body {
 
 /* Logo */
 
-.logo {
+.header-logo {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: var(--black-logo-color);
   text-decoration: none;
+}
+.header-logo-web {
+  color: var(--accent-color);
+}
+
+.footer-logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--primary-white-color);
+  text-decoration: none;
+  background-color: var(
+    --black-logo-color
+  ); /*background-color задан временно,
+  чтобы было видно ссылку в браузере*/
+}
+.footer-logo-web {
+  color: var(--accent-color);
+  background-color: var(
+    --black-logo-color
+  ); /*background-color задан временно,
+  чтобы было видно ссылку в браузере*/
 }
 
 /* Index html */
